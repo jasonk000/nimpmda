@@ -50,6 +50,7 @@ type PmLogLevels* = enum
 const PM_ERR_BASE2 = 12345
 const PM_ERR_BASE = PM_ERR_BASE2
 type PmErr* = enum
+  PERMISSION = -PM_ERR_BASE - 42
   INST = -PM_ERR_BASE - 15
   INDOM = -PM_ERR_BASE - 14
   PMID = -PM_ERR_BASE - 13
