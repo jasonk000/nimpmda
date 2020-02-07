@@ -24,7 +24,7 @@ type PmCount* = enum
   ONE = 0
 
 type PmdaFetch* = enum
-  NOVALUES, STATIC, DYNAMIC
+  NOVALUES = 0, STATIC = 1, DYNAMIC = 2
 
 type PmType* = enum
   NOSUPPORT = -1,
