@@ -12,7 +12,7 @@ const PM_INDOM_NULL*: uint32 = 0xffffffff.uint32
 const PM_IN_NULL*: uint32 = 0xffffffff.uint32
 
 type PmSem* = enum
-  COUNTER = 1, INSTANCE = 3, DISCRETE = 4
+  COUNTER = 1, INSTANT = 3, DISCRETE = 4
 
 type PmTime* = enum
   NSEC, USEC, MSEC, SEC, MIN, HOUR
