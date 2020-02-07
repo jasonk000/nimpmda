@@ -1,7 +1,6 @@
 type PmdaInterface* = enum
   IF_1 = 1, IF_2, IF_3, IF_4, IF_5, IF_6, IF_7
 
-const TITUS* = 400
 const PMDA_FLAG_CONTAINER* = 64 # 1<<6
 const PMDA_ATTR_CONTAINER* = 15
 
